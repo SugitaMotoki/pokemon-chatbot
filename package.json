@@ -1,0 +1,17 @@
+{
+  "name": "pokemon_chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "promptfoo -p test/promptfooconfig.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "promptfoo": "^0.47.0"
+  }
+}
