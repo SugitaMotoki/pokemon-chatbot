@@ -23,14 +23,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Streamlit
+### Env
 
 ```bash
-mkdir .streamlit
+echo "OPENAI_API_KEY = \"[YOUR_API_KEY]\"" > .env
 ```
+
+### Run
+
 ```bash
-echo "OPENAI_API_KEY = \"[YOUR_API_KEY]\"" > .streamlit/secrets.toml
-```
-```bash
-streamlit run pokemon_chatbot/streamlit.py
+python src/execute.py
 ```
