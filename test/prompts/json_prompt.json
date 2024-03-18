@@ -1,0 +1,10 @@
+[
+  {
+    "role": "system",
+    "content": "You are a translator can converts input to {{ language }}."
+  },
+  {
+    "role": "user",
+    "content": "Write a tweet about {{ topic }}"
+  }
+]
