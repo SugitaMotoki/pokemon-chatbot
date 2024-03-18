@@ -1,7 +1,12 @@
+# Env
 .env
 
+# Node
+node_modules/
+
+# Python
 venv/
 __pycache__/
 
+# AI
 vector_db/
-.streamlit/

@@ -1,0 +1,19 @@
+description: "サンプル"
+
+prompts:
+  - prompts/text_prompt.txt
+  - prompts/json_prompt.json
+
+providers:
+  - "python:providers/python_provider.py"
+  - "python:providers/end_to_end_provider.py"
+  - "python:providers/retriever_provider.py"
+  # - "openai:gpt-3.5-turbo"
+
+tests:
+  - vars:
+      topic: bananas
+      language: japanese
+  - vars:
+      topic: new york city
+      language: japanese
